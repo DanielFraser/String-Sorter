@@ -4,6 +4,11 @@
 #include <ctype.h>
 
 /*
+ * Takes in a single string argument and sorts the words (we split using spaces)
+ * We treat capital letters first before lower case
+ */
+
+/*
  *the Nodes that will make up the linked list
  */
 typedef struct Nodes
